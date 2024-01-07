@@ -1,5 +1,7 @@
 ---
 import '../style/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
 const tituloPagina = 'Home';
 ---
@@ -13,9 +15,8 @@ const tituloPagina = 'Home';
 		<title>{tituloPagina}</title>
 	</head>
 	<body>
-		<a href="/">Home</a>
-		<a href="/acercaDe/">Acerca De</a>
-		<a href="/blog/">Blog</a>
+		<Header/>
 		<h1>{tituloPagina}</h1>
+		<Footer/>
 	</body>
 </html>
