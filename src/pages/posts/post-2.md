@@ -1,5 +1,6 @@
 ---
-title: My Second Blog Post
+layout: '../../layouts/MarkdownPostLayout.astro'
+title: Mi segundo post Blog
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:

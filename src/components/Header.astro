@@ -1,9 +1,14 @@
 ---
 import Navigation from '../components/Navigation.astro';
+import Hamburger from '../components/Hamburger.astro';
 ---
 
 <header>
     <nav>
+        <Hamburger/>
         <Navigation/>
     </nav>
+    <script>
+        import '../scripts/menu.js';
+    </script>
 </header>

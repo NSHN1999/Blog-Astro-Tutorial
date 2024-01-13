@@ -1,17 +1,14 @@
 ---
-title: 'My First Blog Post'
+layout: '../../layouts/MarkdownPostLayout.astro'
+title: 'Mi primer post Blog'
 pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
+description: 'Este es el primer post de mi Astro blog.'
 author: 'Astro Learner'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
 tags: ["astro", "blogging", "learning in public"]
 ---
-
-# Mi primer post Blog.
-
-Publicado el: 2022-07-01
 
 Bienvenido a mi nuevo post sobre aprendiendo Astro! Aquí, compartire mi viaje de aprendizaje mientras construyo un nuevo sitio web.
 
